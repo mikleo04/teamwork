@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+.top-content{
+    background-image: url(background-top.jpg);
+    color: blanchedalmond;
+    text-align: center;
+    background-size: cover;
+    padding: 180px 0px
+}
+.top-content h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+.top-content p{
+    font-size: 20px;
+    opacity:  0.8;
+}
+.top-menu{
+    padding-bottom: 80px ;
+    background-color: #fcba03 ;
+    text-align: center;
+}
+.food{
+    float: left;
+    width: 20%;
+    background-color: darkorange ;
+    margin: 0px 29px;
+    padding: 15px 0px;    
+}
+.heading {
+    padding-top: 20px;
+    margin-bottom: 50px;
+    color: azure;
+    font-size: 35px;
+}
+.food-icon{
+    position: relative;
+}
+.food-icon img{
+    opacity: 0.9;
+}
+.food-icon p{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    color: azure;
+    font-size: 17px;
+    font-weight: bold;
+}
+.txt-contents{
+    width: 75%;
+    display: inline-block;
+    font-size: 15px;
+    color: azure;
+}
+.botton{
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px; 
+}
+.pesan{
+    background-color: dimgray ;
+    color: darkorange ;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.deskripsi{
+    background-color: dimgray ;
+    color: darkorange   ;
+    font-weight: bold;
+}
+.botton:hover{
+    opacity: 1;
+}
+.clear{
+    clear: left;
+}

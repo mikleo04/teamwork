@@ -1,0 +1,14 @@
+/* for tablet or ipad */
+@media(max-width: 1000px){
+    .food{
+        width: 40%;
+        margin-bottom:  50px;
+    }
+}
+/* for smartphone */
+@media(max-width: 670px){
+    .food{
+        width: 80%;
+    }
+
+}
